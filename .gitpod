@@ -5,5 +5,5 @@ ports:
     protocol: "http"
   - port: 9000
     protocol: "http"
-tasks:
-  - command: "npm install && ./mvnw"
+#tasks:
+#  - command: "npm install && ./mvnw"
