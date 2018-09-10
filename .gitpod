@@ -1,5 +1,5 @@
 # Configuration for the Gitpod.io Online IDE
-image: jhipster/jhipster:v5.3.1
+#image: jhipster/jhipster:v5.3.1
 ports:
   - port: 8080
     protocol: "http"
