@@ -1,3 +1,4 @@
+# Configuration for the Gitpod.io Online IDE
 image: jhipster/jhipster:v5.3.1
 ports:
   - port: 8080
@@ -6,5 +7,5 @@ ports:
     protocol: "http"
 tasks:
   - install: "npm install && ./mvnw dependency:resolve"
-  - dev-back: "./mvnw"
-  - dev-front: "npm start"
+#  - dev-back: "./mvnw"
+#  - dev-front: "npm start"
