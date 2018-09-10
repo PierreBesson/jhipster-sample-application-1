@@ -1,0 +1,10 @@
+image: jhipster/jhipster:v5.3.1
+ports:
+  - port: 8080
+    protocol: "http"
+  - port: 9000
+    protocol: "http"
+tasks:
+  - install: "npm install && ./mvnw dependency:resolve"
+  - dev-back: "./mvnw"
+  - dev-front: "npm start"
